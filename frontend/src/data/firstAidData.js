@@ -1,10 +1,11 @@
-// First Aid data - DO and DON'T lists for each emergency topic
+// First Aid topics with lucide-react icon names + DO/DON'T data
 
 export const firstAidTopics = [
   {
     id: 'abdominal-injury',
     title: 'Abdominal Injury',
-    icon: '🚑',
+    icon: 'Stethoscope',
+    color: 'from-red-500/30 to-orange-500/20',
     dos: [
       'Ask for Help',
       'Keep person lying down',
@@ -22,8 +23,9 @@ export const firstAidTopics = [
   },
   {
     id: 'airway-obstruction',
-    title: 'Airway obstruction (Chocking)',
-    icon: '🤢',
+    title: 'Airway Obstruction (Choking)',
+    icon: 'Wind',
+    color: 'from-cyan-500/30 to-sky-500/20',
     dos: [
       'Ask the person to cough forcefully',
       'Give 5 back blows between shoulder blades',
@@ -41,7 +43,8 @@ export const firstAidTopics = [
   {
     id: 'altitude-sickness',
     title: 'Altitude Related Sickness',
-    icon: '🏔️',
+    icon: 'Mountain',
+    color: 'from-indigo-500/30 to-blue-500/20',
     dos: [
       'Stop ascending and rest',
       'Descend to lower altitude immediately if symptoms worsen',
@@ -59,7 +62,8 @@ export const firstAidTopics = [
   {
     id: 'anaphylaxis',
     title: 'Anaphylaxis',
-    icon: '🐝',
+    icon: 'Syringe',
+    color: 'from-amber-500/30 to-yellow-500/20',
     dos: [
       'Call emergency services immediately',
       'Use epinephrine auto-injector (EpiPen) if available',
@@ -77,8 +81,9 @@ export const firstAidTopics = [
   },
   {
     id: 'spinal-injury',
-    title: 'Backbone/Spinal Injury',
-    icon: '🦴',
+    title: 'Backbone / Spinal Injury',
+    icon: 'Bone',
+    color: 'from-slate-400/30 to-zinc-500/20',
     dos: [
       'Keep the person completely still',
       'Support head and neck in line with body',
@@ -96,7 +101,8 @@ export const firstAidTopics = [
   {
     id: 'bleeding-ear',
     title: 'Bleeding from Ear',
-    icon: '👂',
+    icon: 'Ear',
+    color: 'from-rose-500/30 to-pink-500/20',
     dos: [
       'Help person sit up with affected ear tilted down',
       'Place clean cloth over ear lightly',
@@ -113,7 +119,8 @@ export const firstAidTopics = [
   {
     id: 'bleeding-nose',
     title: 'Bleeding from Nose',
-    icon: '👃',
+    icon: 'Droplet',
+    color: 'from-red-500/30 to-rose-500/20',
     dos: [
       'Sit upright and lean slightly forward',
       'Pinch the soft part of nose for 10-15 minutes',
@@ -131,7 +138,8 @@ export const firstAidTopics = [
   {
     id: 'bleeding-wound',
     title: 'Bleeding from Wound',
-    icon: '🩸',
+    icon: 'Droplets',
+    color: 'from-red-500/30 to-rose-500/20',
     dos: [
       'Apply firm direct pressure with a clean cloth',
       'Elevate the wounded area above heart level',
@@ -149,7 +157,8 @@ export const firstAidTopics = [
   {
     id: 'breathing-difficulties',
     title: 'Breathing Difficulties',
-    icon: '🫁',
+    icon: 'AirVent',
+    color: 'from-sky-500/30 to-cyan-500/20',
     dos: [
       'Help person sit upright',
       'Loosen tight clothing',
@@ -166,8 +175,9 @@ export const firstAidTopics = [
   },
   {
     id: 'burn-injury',
-    title: 'Burn related injury',
-    icon: '🔥',
+    title: 'Burn Related Injury',
+    icon: 'Flame',
+    color: 'from-orange-500/30 to-red-500/20',
     dos: [
       'Cool the burn with cool (not cold) running water for 20 minutes',
       'Remove jewelry/tight items before swelling',
@@ -185,7 +195,8 @@ export const firstAidTopics = [
   {
     id: 'chemical-burn',
     title: 'Chemical Burn',
-    icon: '🧪',
+    icon: 'FlaskConical',
+    color: 'from-lime-500/30 to-green-500/20',
     dos: [
       'Remove contaminated clothing carefully',
       'Flush area with running water for at least 20 minutes',
@@ -203,7 +214,8 @@ export const firstAidTopics = [
   {
     id: 'chest-pain',
     title: 'Chest Pain',
-    icon: '💔',
+    icon: 'HeartPulse',
+    color: 'from-rose-500/30 to-red-500/20',
     dos: [
       'Call emergency services immediately',
       'Help person sit in comfortable position',
@@ -221,7 +233,8 @@ export const firstAidTopics = [
   {
     id: 'convulsion',
     title: 'Convulsion',
-    icon: '⚡',
+    icon: 'Zap',
+    color: 'from-yellow-500/30 to-amber-500/20',
     dos: [
       'Protect from injury - clear area of hard objects',
       'Cushion the head',
@@ -239,7 +252,8 @@ export const firstAidTopics = [
   {
     id: 'cpr',
     title: 'CPR',
-    icon: '💓',
+    icon: 'Heart',
+    color: 'from-pink-500/30 to-rose-500/20',
     dos: [
       'Check responsiveness and breathing',
       'Call emergency services immediately',
@@ -258,7 +272,8 @@ export const firstAidTopics = [
   {
     id: 'cpr-aed',
     title: 'CPR with AED',
-    icon: '🔋',
+    icon: 'Activity',
+    color: 'from-emerald-500/30 to-green-500/20',
     dos: [
       'Turn on AED and follow voice prompts',
       'Attach pads to bare chest as shown',
@@ -277,7 +292,8 @@ export const firstAidTopics = [
   {
     id: 'cut-injury',
     title: 'Cut Related Injury',
-    icon: '🔪',
+    icon: 'Scissors',
+    color: 'from-red-500/30 to-rose-500/20',
     dos: [
       'Wash hands before treating',
       'Clean wound with clean water',
@@ -295,7 +311,8 @@ export const firstAidTopics = [
   {
     id: 'dehydration',
     title: 'Dehydration',
-    icon: '💧',
+    icon: 'GlassWater',
+    color: 'from-blue-500/30 to-cyan-500/20',
     dos: [
       'Move person to cool, shaded area',
       'Give small sips of water or ORS',
@@ -312,8 +329,9 @@ export const firstAidTopics = [
   },
   {
     id: 'dizziness',
-    title: 'Dizziness/Vertigo',
-    icon: '💫',
+    title: 'Dizziness / Vertigo',
+    icon: 'RotateCw',
+    color: 'from-purple-500/30 to-violet-500/20',
     dos: [
       'Help person sit or lie down',
       'Keep head still',
@@ -330,8 +348,9 @@ export const firstAidTopics = [
   },
   {
     id: 'animal-bite',
-    title: 'Dog/Animal Bite',
-    icon: '🐕',
+    title: 'Dog / Animal Bite',
+    icon: 'Dog',
+    color: 'from-amber-500/30 to-orange-500/20',
     dos: [
       'Wash wound with soap and running water for 15 minutes',
       'Apply antiseptic if available',
@@ -349,7 +368,8 @@ export const firstAidTopics = [
   {
     id: 'drowning',
     title: 'Drowning',
-    icon: '🌊',
+    icon: 'Waves',
+    color: 'from-blue-500/30 to-sky-500/20',
     dos: [
       'Call for help immediately',
       'Remove from water safely',
@@ -368,7 +388,8 @@ export const firstAidTopics = [
   {
     id: 'electric-shock',
     title: 'Electric Shock',
-    icon: '🔌',
+    icon: 'Plug',
+    color: 'from-yellow-500/30 to-amber-500/20',
     dos: [
       'Switch off power source first',
       'Use dry non-conductive object to separate person',
@@ -386,7 +407,8 @@ export const firstAidTopics = [
   {
     id: 'eye-injury',
     title: 'Eye Injury',
-    icon: '👁️',
+    icon: 'Eye',
+    color: 'from-cyan-500/30 to-teal-500/20',
     dos: [
       'Wash eye gently with clean water for chemicals',
       'Cover both eyes with clean cloth',
@@ -403,7 +425,8 @@ export const firstAidTopics = [
   {
     id: 'fainting',
     title: 'Fainting',
-    icon: '😵',
+    icon: 'UserMinus',
+    color: 'from-slate-400/30 to-zinc-500/20',
     dos: [
       'Lay person flat and raise legs',
       'Loosen tight clothing',
@@ -421,7 +444,8 @@ export const firstAidTopics = [
   {
     id: 'fever',
     title: 'Fever',
-    icon: '🌡️',
+    icon: 'Thermometer',
+    color: 'from-orange-500/30 to-red-500/20',
     dos: [
       'Rest in a cool environment',
       'Drink plenty of fluids',
@@ -439,7 +463,8 @@ export const firstAidTopics = [
   {
     id: 'frostbite',
     title: 'Frostbite',
-    icon: '❄️',
+    icon: 'Snowflake',
+    color: 'from-sky-500/30 to-blue-500/20',
     dos: [
       'Move to warm area',
       'Remove wet clothing',
@@ -457,7 +482,8 @@ export const firstAidTopics = [
   {
     id: 'general-guidelines',
     title: 'General Guidelines of Any First Aid',
-    icon: '📋',
+    icon: 'ClipboardList',
+    color: 'from-emerald-500/30 to-teal-500/20',
     dos: [
       'Assess the scene for safety first',
       'Wear protective gloves if available',
@@ -475,7 +501,8 @@ export const firstAidTopics = [
   {
     id: 'head-injury',
     title: 'Head Injury',
-    icon: '🤕',
+    icon: 'Brain',
+    color: 'from-fuchsia-500/30 to-pink-500/20',
     dos: [
       'Keep person still and calm',
       'Apply gentle pressure to bleeding wound',
@@ -493,7 +520,8 @@ export const firstAidTopics = [
   {
     id: 'heat-stroke',
     title: 'Heat Stroke',
-    icon: '☀️',
+    icon: 'Sun',
+    color: 'from-amber-500/30 to-orange-500/20',
     dos: [
       'Move person to cool, shaded area',
       'Remove excess clothing',
@@ -511,7 +539,8 @@ export const firstAidTopics = [
   {
     id: 'hypoglycemia',
     title: 'Hypoglycemia',
-    icon: '🍬',
+    icon: 'Candy',
+    color: 'from-pink-500/30 to-rose-500/20',
     dos: [
       'Give sugary food/drink if conscious (glucose tablets, juice)',
       'Recheck after 15 minutes',
@@ -528,8 +557,9 @@ export const firstAidTopics = [
   },
   {
     id: 'insect-bite',
-    title: 'Insect Bite/Sting',
-    icon: '🐜',
+    title: 'Insect Bite / Sting',
+    icon: 'Bug',
+    color: 'from-lime-500/30 to-green-500/20',
     dos: [
       'Remove stinger by scraping with a card',
       'Wash area with soap and water',
@@ -547,7 +577,8 @@ export const firstAidTopics = [
   {
     id: 'poisoning',
     title: 'Poisoning',
-    icon: '☠️',
+    icon: 'Skull',
+    color: 'from-zinc-400/30 to-slate-500/20',
     dos: [
       'Identify the poison if possible',
       'Call poison control or emergency services',
@@ -565,7 +596,8 @@ export const firstAidTopics = [
   {
     id: 'snake-bite',
     title: 'Snake Bite',
-    icon: '🐍',
+    icon: 'Worm',
+    color: 'from-green-500/30 to-emerald-500/20',
     dos: [
       'Keep the person calm and still',
       'Immobilize the affected limb below heart level',
@@ -583,7 +615,8 @@ export const firstAidTopics = [
   {
     id: 'stroke',
     title: 'Stroke',
-    icon: '🧠',
+    icon: 'BrainCircuit',
+    color: 'from-violet-500/30 to-purple-500/20',
     dos: [
       'Use FAST test (Face, Arms, Speech, Time)',
       'Call emergency services immediately',
@@ -601,7 +634,8 @@ export const firstAidTopics = [
   {
     id: 'toxic-chemical',
     title: 'Toxic Chemical Contact',
-    icon: '☣️',
+    icon: 'Biohazard',
+    color: 'from-yellow-500/30 to-amber-500/20',
     dos: [
       'Remove contaminated clothing',
       'Flush skin with water for 20 minutes',
@@ -619,7 +653,8 @@ export const firstAidTopics = [
   {
     id: 'toxic-gas',
     title: 'Toxic Gas Inhalation',
-    icon: '🌫️',
+    icon: 'CloudFog',
+    color: 'from-slate-400/30 to-zinc-500/20',
     dos: [
       'Move person to fresh air immediately',
       'Loosen tight clothing',
@@ -636,8 +671,9 @@ export const firstAidTopics = [
   },
   {
     id: 'joint-bone-trauma',
-    title: 'Trauma to Joints/Bone',
-    icon: '🦵',
+    title: 'Trauma to Joints / Bone',
+    icon: 'Footprints',
+    color: 'from-orange-500/30 to-amber-500/20',
     dos: [
       'Immobilize the injured area',
       'Apply ice pack wrapped in cloth',
@@ -655,7 +691,8 @@ export const firstAidTopics = [
   {
     id: 'amputation',
     title: 'Traumatic Amputation',
-    icon: '✂️',
+    icon: 'Slice',
+    color: 'from-red-500/30 to-rose-500/20',
     dos: [
       'Control bleeding with direct pressure',
       'Wrap amputated part in clean cloth',
@@ -673,7 +710,8 @@ export const firstAidTopics = [
   {
     id: 'oshwc-regulations',
     title: 'OSHWC Code 2020 & Rule Regulations',
-    icon: '⚖️',
+    icon: 'Scale',
+    color: 'from-indigo-500/30 to-blue-500/20',
     dos: [
       'Maintain first aid boxes as per regulation',
       'Train designated first aiders',

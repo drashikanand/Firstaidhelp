@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import { ArrowLeft, Check, X, Globe, Phone } from "lucide-react";
+import * as Icons from "lucide-react";
+import { ArrowLeft, Check, X, Phone } from "lucide-react";
 import { firstAidTopics } from "../data/firstAidData";
 
 const AMBULANCE_NUMBER = "9513945297";
@@ -25,15 +26,12 @@ export default function TopicDetail() {
     );
   }
 
+  const Icon = Icons[topic.icon] || Icons.HeartPulse;
+
   return (
     <div className="app-bg min-h-screen">
-      {/* Top right pills */}
+      {/* Top right emergency pill */}
       <div className="fixed top-5 right-5 z-50 flex items-center gap-3">
-        <button className="pill flex items-center gap-2 px-4 py-2 rounded-full text-white text-sm">
-          <Globe className="w-4 h-4 text-sky-400" />
-          <span>Translate</span>
-          <span className="ml-1 text-xs text-white/60">अ/A</span>
-        </button>
         <a
           href={`tel:${AMBULANCE_NUMBER}`}
           className="emergency-pill flex items-center gap-2 px-4 py-2 rounded-full text-white text-sm font-medium"
@@ -54,7 +52,9 @@ export default function TopicDetail() {
 
         <div className="mt-8 hero-card rounded-3xl p-8 md:p-12 fade-up">
           <div className="flex items-center gap-4 pb-6 border-b border-white/10">
-            <span className="text-4xl" aria-hidden="true">{topic.icon}</span>
+            <div className={`w-14 h-14 rounded-2xl flex items-center justify-center bg-gradient-to-br ${topic.color} border border-white/10`}>
+              <Icon className="w-7 h-7 text-white" strokeWidth={1.75} />
+            </div>
             <h1 className="text-2xl md:text-4xl font-bold text-white">{topic.title}</h1>
           </div>
 
