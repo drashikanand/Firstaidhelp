@@ -92,19 +92,17 @@ export default function Home() {
           })}
         </section>
 
-        {/* Inspiration / Credit */}
+        {/* Trademark */}
         <section className="mt-20 pt-10 border-t border-white/10">
           <div className="hero-card rounded-2xl px-6 py-8 md:px-10 md:py-10 text-center">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 text-[10px] uppercase tracking-[0.25em] text-white/60 mb-4">
               <Sparkles className="w-3 h-3 text-sky-400" />
-              <span>Acknowledgement</span>
+              <span>Crafted by</span>
             </div>
-            <p className="text-white/80 text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
-              Inspired from{" "}
-              <span className="text-white font-semibold">arka1985</span>
-              <span className="text-white/50"> — </span>
-              <span className="text-white/90">Deputy Director (Medical), DGFASLI</span>
+            <p className="text-2xl md:text-3xl font-extrabold tracking-tight bg-gradient-to-r from-sky-400 via-fuchsia-400 to-pink-400 bg-clip-text text-transparent">
+              Latoshi Satoshigene
             </p>
+            <p className="mt-2 text-[11px] uppercase tracking-[0.3em] text-white/40">&trade;</p>
           </div>
         </section>
 
