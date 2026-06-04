@@ -31,7 +31,7 @@ export default function Home() {
           href={`tel:${AMBULANCE_NUMBER}`}
           className="emergency-pill flex items-center gap-2 px-4 py-2 rounded-full text-white text-sm font-medium"
         >
-          <Phone className="w-4 h-4" />
+          <span className="text-base leading-none" aria-hidden="true">🚑</span>
           <span>{AMBULANCE_NUMBER}</span>
         </a>
       </div>
